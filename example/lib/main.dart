@@ -14,7 +14,8 @@ class MainApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: RollDice2D(
-            color: DiceColor.white,
+            rollingTimes: 3000, // Number of times to roll the dice
+            color: DiceColor.red,
             onRoll: (value) {
               debugPrint('Rolled value: $value');
             },

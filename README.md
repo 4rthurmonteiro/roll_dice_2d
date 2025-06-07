@@ -11,6 +11,9 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
+![Dice Red Rolling Animation](gifs/dicered.gif)
+
+
 # roll_dice_2d
 
 A Flutter widget that displays an animated 2D dice. It allows customization of dice color, rolling animation, and provides a callback with the final dice value.
