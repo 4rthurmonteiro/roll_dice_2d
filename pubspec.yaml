@@ -1,0 +1,20 @@
+name: roll_dice_2d
+description: A roll dice 2D package.
+version: 0.0.1
+
+environment:
+  sdk: ^3.8.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  sonar_analysis: ^2.0.1
+
+flutter:
+  assets:
+    - assets/images/

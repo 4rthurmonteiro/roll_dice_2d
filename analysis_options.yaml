@@ -1,0 +1,4 @@
+include: package:sonar_analysis/sonar_analysis.yaml
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
