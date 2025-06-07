@@ -35,7 +35,7 @@ A Flutter widget that displays an animated 2D dice. It allows customization of d
     dependencies:
       flutter:
         sdk: flutter
-      roll_dice_2d: ^0.0.1 # Replace with the latest version
+      roll_dice_2d: ^1.0.0 # Replace with the latest version
     ```
 
 2.  Run `flutter pub get` to install the package.

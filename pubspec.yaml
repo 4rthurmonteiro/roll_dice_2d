@@ -1,6 +1,8 @@
 name: roll_dice_2d
 description: A roll dice 2D package.
-version: 0.0.1
+version: 1.0.0
+repository: https://github.com/4rthurmonteiro/roll_dice_2d
+issue_tracker: https://github.com/4rthurmonteiro/roll_dice_2d/issues
 
 environment:
   sdk: ^3.8.1
@@ -18,3 +20,8 @@ dev_dependencies:
 flutter:
   assets:
     - assets/images/
+
+topics:
+  - dice
+  - game
+  
