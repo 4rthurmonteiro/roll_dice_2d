@@ -25,10 +25,8 @@ A Flutter widget that displays an animated 2D dice. It allows customization of d
 *   Animates dice rolling by changing faces.
 *   Configurable number of animated rolls (`rollingTimes`) and animation speed (`speed`).
 *   `onRoll` callback: Provides the final dice value (1-6) after rolling animation completes.
-*   Bundled dice images: Includes assets for red and white dice faces from 1 to 6.
-*   Deterministic roll sequence: Due to a fixed seed for the random number generator, the sequence of dice rolls is the same each time the widget is initialized or re-keyed. This can be useful for testing or specific scenarios requiring predictable outcomes.
-
-*(Consider adding a GIF here showing the dice roll animation!)*
+*   Bundled dice images: Includes assets for red and white dice faces (1 to 6).
+*   Deterministic roll sequence: Offers predictable roll sequences for testing or specific scenarios (see 'Additional Information' for details).
 
 ## Getting started
 
@@ -154,4 +152,3 @@ The dice images are displayed with a fixed size of `100x100` pixels and `BoxFit.
 *   **Deterministic Rolls**: The dice rolling mechanism uses a fixed seed for its random number generator. This means that each time the `RollDice2D` widget is initialized (e.g., on first load or when its `key` changes), it will produce the exact same sequence of dice values if `rollingTimes` is greater than 0. If `rollingTimes` is 1 or less, it will always show the same initial dice face. This is important to understand if you expect different random outcomes on each "roll again" action without changing other factors.
 
 ---
-

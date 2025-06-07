@@ -29,7 +29,7 @@ class _RollDice2DState extends State<RollDice2D> {
   @override
   void initState() {
     super.initState();
-    random = Random(0xFFFFFF);
+    random = Random(DateTime.now().millisecondsSinceEpoch);
     initialValue =
         random.nextInt(6) + 1; // Random initial value between 1 and 6
 

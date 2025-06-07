@@ -1,3 +1,7 @@
+## 1.0.2
+
+* Change random seed.
+
 ## 1.0.1
 
 * Update `README.md`
